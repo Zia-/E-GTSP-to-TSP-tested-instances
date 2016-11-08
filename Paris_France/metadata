@@ -1,0 +1,19 @@
+NAME: Paris (France)
+TYPE: E-GTSP Model
+NUMBER OF VERTICES: 77074
+NUMBER OF EDGES: 104457
+CITY STREET GRAPH: G(V,E)
+VERTEX (ID, LONGITUDE, LATITUDE) FILE: vertex_Dump
+EDGE (ID_VERTEX1, ID_VERTEX2, EDGE_COST(METER)) FILE: edge_Dump
+ROUTES (ID_START_VERTEX, ID_END_VERTEX) FILE: route_Dump
+GROUP_A STATIONS (ID) FILE: groupA_Dump
+GROUP_B STATIONS (ID) FILE: groupB_Dump
+GROUP_C STATIONS (ID) FILE: groupC_Dump
+GROUP_D STATIONS (ID) FILE: groupD_Dump
+GROUP_E STATIONS (ID) FILE: groupE_Dump
+INSTANCE-1 (|V^g| = 1) RESULTS (ID_groupA) FILE: instance1_Dump
+INSTANCE-2 (|V^g| = 2) RESULTS (ID_groupA, ID_groupB) FILE: instance2_Dump
+INSTANCE-3 (|V^g| = 3) RESULTS (ID_groupA, ID_groupB, ID_groupC) FILE: instance3_Dump
+INSTANCE-4 (|V^g| = 4) RESULTS (ID_groupA, ID_groupB, ID_groupC, ID_groupD) FILE: instance4_Dump
+INSTANCE-5 (|V^g| = 5) RESULTS (ID_groupA, ID_groupB, ID_groupC, ID_groupD, ID_groupE) FILE: instance5_Dump
+EOF
